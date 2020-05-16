@@ -29,6 +29,7 @@ public class AttachmentsModel extends BaseModel {
     @NotInsertColumn
     @Column(value = "created_at")
     private Date created_at;
+    private String nice;
 
     public AttachmentsModel() {
     }
